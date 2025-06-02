@@ -7,7 +7,7 @@
 .code
 main:
     ; Inicializaci?n
-    mov ax, @data
+    mov ax, @
     mov ds, ax
 
     ; Mostrar el mensaje de conteo
