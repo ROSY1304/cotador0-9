@@ -8,7 +8,7 @@
 main:
     ; Inicializaci?n
     mov ax, @
-    mov ds, ax
+    mov ds, 
 
     ; Mostrar el mensaje de conteo
     mov dx, offset msg
