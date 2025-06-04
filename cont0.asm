@@ -8,7 +8,7 @@
 main:
     ; Inicializaci?n
     mov ax, @
-    mov ds, 
+    mov ds, ax
 
     ; Mostrar el mensaje de conteo
     mov dx, offset msg
@@ -18,7 +18,7 @@ main:
     ; Ciclo de conteo descendente
 countdown:
     ; Convertir el n?mero a ASCII para mostrar
-    add number, '0
+    add number, '0'
     mov dl, number
     mov ah, 02h    ; Funci?n para imprimir un car?cter
     int 21h
