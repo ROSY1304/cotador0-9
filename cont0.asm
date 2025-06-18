@@ -12,7 +12,7 @@ main:
 
     ; Mostrar el mensaje de conteo
     mov dx, offset msg
-    mov ah, 09h
+    mov ah
     int 21h
 
     ; Ciclo de conteo descendente
